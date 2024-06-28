@@ -170,11 +170,16 @@
 }
 
 .recipes__videos {
+  border-style: none;
   margin-top: 80px;
   margin-bottom: 215px;
   display: flex;
   gap: 40px;
   justify-content: center;
+}
+
+.recipes__iframe {
+  border-style: none;
 }
 
 .recipes__videos-caption {
