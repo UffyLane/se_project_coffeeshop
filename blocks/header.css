@@ -1,0 +1,126 @@
+.header {
+  background-color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/background_header.svg);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+}
+
+.nav {
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  align-content: center;
+}
+
+.nav__logo {
+  position: relative;
+  left: -50px;
+  display: flex;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  align-content: flex-end;
+  flex-direction: row;
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  gap: 20px;
+  margin: 0;
+}
+
+.nav__link {
+  right: 80px;
+  top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  column-gap: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header__title {
+  z-index: 6;
+  margin: 183px 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  max-width: 729px;
+}
+
+.header__description {
+  z-index: 6;
+  margin: 28px 0 0;
+  max-width: 683px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__span-accent {
+  z-index: 6;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+  display: block;
+}
+
+.header__image {
+  overflow: auto;
+  top: 124px;
+  right: 5px;
+  height: 568px;
+  width: 646px;
+  position: absolute;
+  z-index: 1;
+}
+
+.header__footer {
+  z-index: 6;
+  margin-bottom: 40px;
+  margin-right: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__paragraph {
+  margin: 0;
+  color: #838383;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
+}
