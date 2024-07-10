@@ -1,6 +1,6 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  padding: 60px 102px 60px 80px;
+  padding: 60px 80px;
   box-sizing: border-box;
 }
 
@@ -24,6 +24,8 @@
 }
 
 .footer__list {
+  padding-left: 0;
+  margin: 0;
   list-style-type: none;
 }
 

@@ -23,6 +23,7 @@
 }
 
 .about__title {
+  margin: 0;
   max-width: 251px;
   z-index: 2;
   color: #ffffff;
@@ -39,6 +40,7 @@
 }
 
 .about__paragraph {
+  margin: 0;
   color: #ffffff;
   font-family: "Noto Serif", "Times New Roman", "serif";
   font-style: normal;
@@ -48,20 +50,17 @@
 }
 
 .about__circle {
+  margin: 0;
   background-color: #2f80ed;
-  margin: -152px auto auto -129px;
   width: 426px;
   height: 426px;
   border-radius: 50%;
   position: absolute;
+  top: -152px;
+  left: -129px;
 }
 
 .about__circle_animation_blurred {
-  margin: -152px auto auto -129px;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
   transform-origin: center;
   animation: pulsate 1.3s ease-in-out infinite;
 }
