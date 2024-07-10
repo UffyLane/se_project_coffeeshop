@@ -29,7 +29,7 @@
   z-index: 6;
   margin: 28px 0 0;
   max-width: 683px;
-  font-family: "Noto Serif", "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", "serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -38,7 +38,7 @@
 
 .header__span-accent {
   z-index: 6;
-  font-family: "Noto Serif", "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", "serif";
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -60,7 +60,7 @@
 .header__footer {
   z-index: 6;
   margin-right: 80px;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", "Arial", "sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
