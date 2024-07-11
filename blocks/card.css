@@ -1,9 +1,11 @@
 .card__title {
+  margin: 0;
   font-family: "Inter", "Arial", "sans-serif";
   font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
   margin-bottom: 32px;
 }
 
@@ -13,7 +15,7 @@
 
 .card__list {
   list-style-type: none;
-  margin: 0 0 32px;
+  margin: 0;
   padding: 0;
 }
 
